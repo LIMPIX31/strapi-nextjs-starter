@@ -1,0 +1,26 @@
+{
+  "name": "strapi-next-starter",
+  "type": "module",
+  "workspaces": [
+    "packages/**",
+    "apps/**"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@ltos/config-eslint": "~0",
+    "@ltos/config-prettier": "~0",
+    "@repo/tsconfig": "workspace:*",
+    "@types/bun": "latest",
+    "@types/web": "0.0.142",
+    "eslint": "8.57.0",
+    "prettier": "3.2.5",
+    "turbo": "1.12.5",
+    "typescript": "5.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "5.3.3"
+  },
+  "packageManager": "yarn@4.1.1"
+}
